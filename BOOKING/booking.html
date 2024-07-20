@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="bookstyle.css" />
+    <style>
+        a{
+            position: relative;
+            color: #fcfcfc; /* Link text color */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Make it bold */ 
+            top: 100px;
+            left: 420px;
+            font-family: "Inter-Medium", Helvetica;
+            font-weight: 500;
+            font-size: 32px;
+            letter-spacing: 1.6px;
+            line-height: normal;
+          }
+        #link1{
+            position: relative;
+            color: #0a0a0a; /* Link text color */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Make it bold */
+        }
+        .confirm-button {
+            background-color: #eaeef2;
+            color: rgb(15, 6, 6);
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+          }
+          .confirmed {
+            background-color: #2ECC40;
+          }
+    </style>
+    
+  </head>
+  <body>
+    
+    <div class="macbook-air">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="rectangle"></div>
+            <img class="SEM-logo" src="img/SEM logo 3.svg" />
+            <div class="home"><div class="text-wrapper"><a href="https://www.google.com" target="_blank">HOME</a></div></div>
+            <div class="div">BOOKINGS</div>
+          </div>
+          <div class="overlap-2">
+            <div class="rectangle-2"></div>
+            <div class="rectangle-3"></div>
+            <div class="rectangle-4"></div>
+            <div class="rectangle-5"></div>
+            <div class="rectangle-6"></div>
+            <div class="name-harish">Name:&nbsp;&nbsp;harish</div>
+            <div class="name-lokesh">Name:&nbsp;&nbsp;lokesh</div>
+            <div class="name-prathiyush">Name:&nbsp;&nbsp;prathiyush</div>
+            <div class="pick-up-location">PICK UP LOCATION:HYDERABAD</div>
+            <div class="pick-up-location-2">PICK UP LOCATION:HYDERABAD</div>
+            <div class="pick-up-location-3">PICK UP LOCATION:HYDERABAD</div>
+            <div class="payment"><a id="link1" href="index11.html">PAY</a></div>
+            <div class="payment1"><a id="link1" href="index11.html">PAY</a></div>
+            <div class="payment2"><a id="link1" href="index11.html">PAY</a></div>
+            <div class="drop-location">DROP LOCATION:CHENNAI</div>
+            <div class="drop-location-2">DROP LOCATION:CHENNAI</div>
+            <div class="drop-location-3">DROP LOCATION:CHENNAI</div>
+            <div class="quantity">QUANTITY:2ton</div>
+            <div class="quantity-2">QUANTITY:2ton</div>
+            <div class="quantity-3">QUANTITY:2ton</div>
+            <div class="material-type">MATERIAL TYPE:paddy</div>
+            <div class="material-type-2">MATERIAL TYPE:paddy</div>
+            <div class="material-type-3">MATERIAL TYPE:paddy</div>
+            <div class="mob-no">MOB.NO.:88947</div>
+            <div class="mob-no-2">MOB.NO.:88947</div>
+            <div class="mob-no-3">MOB.NO.:88947</div>
+            
+            <div class="overlap-3"><button id="confirmButton1" class="confirm-button" >Confirm</button></div>
+            <div class="overlap-4"><button id="confirmButton2" class="confirm-button" onclick="confirmAction(2)">Confirm</button></div>
+            <div class="overlap-5"><button id="confirmButton3" class="confirm-button" onclick="confirmAction(3)">Confirm</button></div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        const confirmationStatus = localStorage.getItem('confirmationStatus');
+
+        if (confirmationStatus === 'confirmed') {
+            for (let i = 1; i <= 3; i++) {
+                const button = document.getElementById("confirmButton" + i);
+                button.innerHTML = "Confirmed";
+                button.classList.add("confirmed");
+                button.disabled = true;
+            }
+        }
+    </script>
+  </body>
+</html>

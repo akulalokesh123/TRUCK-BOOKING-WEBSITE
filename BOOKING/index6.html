@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style6.css" />
+    <style>
+      a{
+        position: relative;
+        color: #e51f1f; /* Link text color */
+        text-decoration: none; /* Remove underline */
+        font-weight: bold; 
+        top: 100px;
+        left: 420px;
+        font-family: "Inter-Medium", Helvetica;
+        font-weight: 500;
+        font-size: 32px;
+        letter-spacing: 1.6px;
+        line-height: normal;
+      }
+      .confirm-button {
+        background-color: #eaeef2;
+        color: rgb(15, 6, 6);
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+  
+      .confirmed {
+        background-color: #2ECC40;
+      }
+      .container {
+        position: absolute;
+        
+      }
+      .container1 {
+        position: absolute;
+
+      }
+      .container2 {
+        position: absolute;
+        color: #2ECC40;
+
+      }
+      /* Additional styles for clarity */
+      label {
+        display:line;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <script>
+      function confirmAction(buttonId) {
+        const button = document.getElementById("confirmButton" + buttonId);
+        button.innerHTML = "Confirmed";
+        button.classList.add("confirmed");
+        button.disabled = true;
+  
+        // Save the confirmation status to local storage
+        localStorage.setItem('confirmationStatus' + buttonId, 'confirmed');
+      }
+      function saveNumber() {
+        const numericInput = document.getElementById("numericInput");
+        const displayNumber = document.getElementById("displayNumber");
+        const enteredNumber = numericInput.value;
+        displayNumber.textContent = "Price: " + enteredNumber;
+      }
+      function saveNumber1() {
+        const numericInput1 = document.getElementById("numericInput1");
+        const displayNumber1 = document.getElementById("displayNumber1");
+        const enteredNumber = numericInput1.value;
+        displayNumber1.textContent = "Price: " + enteredNumber;
+      }
+      function saveNumber2() {
+        const numericInput1 = document.getElementById("numericInput2");
+        const displayNumber2 = document.getElementById("displayNumber2");
+        const enteredNumber = numericInput2.value;
+        displayNumber2.textContent = "Price: " + enteredNumber;
+      }
+      
+    </script>
+    <div class="macbook-air">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="rectangle"></div>
+            <div class="home"><div class="text-wrapper"><a href="dup12.html">HOME</a></div></div>
+            <img class="SEM-logo" src="img/SEM logo 3.svg" />
+            
+            <div class="div">BOOKINGS</div> 
+          </div>
+          <div class="overlap-2">
+            <div class="rectangle-2"></div>
+            <div class="rectangle-3"></div>
+            <div class="rectangle-4"></div>
+            <div class="rectangle-5"></div>
+            <div class="rectangle-6"></div>
+            <div class="name-harish">Name:&nbsp;&nbsp;harish</div>
+            <div class="name-lokesh">Name:&nbsp;&nbsp;lokesh</div>
+            <div class="name-prathiyush">Name:&nbsp;&nbsp;prathiyush</div>
+            <div class="pick-up-location">PICKUP LOCATION:HYDERABAD</div>
+            <div class="pick-up-location-2">PICKUP LOCATION:HYDERABAD</div>
+            <div class="pick-up-location-3">PICKUP LOCATION:HYDERABAD</div>
+            <div class="drop-location">DROP LOCATION: CHENNAI</div>
+            <div class="drop-location-2">DROP LOCATION: CHENNAI</div>
+            <div class="drop-location-3">DROP LOCATION: CHENNAI</div>
+            <div class="quantity">QUANTITY:4ton</div>
+            <div class="quantity-2">QUANTITY:2ton</div>
+            <div class="quantity-3">QUANTITY:2ton</div>
+            <div class="material-type">MATERIAL TYPE:paddy</div>
+            <div class="material-type-2">MATERIAL TYPE:corn</div>
+            <div class="material-type-3">MATERIAL TYPE:kobbari</div>
+            <div class="mob-no">MOB.NO.:889234</div>
+            <div class="mob-no-2">MOB.NO.:129786</div>
+            <div class="mob-no-3">MOB.NO.:987344</div>
+            <div class="overlap-3"><button id="confirmButton1" class="confirm-button" onclick="confirmAction(1)">Confirm</button>
+              <div class="container">
+                <label for="numericInput">Fair value:</label>
+                <input type="number" id="numericInput" name="numericInput" min="0" step="1" required>
+                <button onclick="saveNumber()">Save</button>
+                <p id="displayNumber"></p>
+              </div>
+            </div>
+            <div class="overlap-4"><button id="confirmButton2" class="confirm-button" onclick="confirmAction(2)">Confirm</button>
+              <div class="container1" >
+                <label for="numericInput">Fair value:</label>
+                <input type="number" id="numericInput1" name="numericInput1" min="0" step="1" required>
+                <button onclick="saveNumber1()">Save</button>
+                <p id="displayNumber1"></p>
+              </div>
+            </div>
+            <div class="overlap-5"><button id="confirmButton3" class="confirm-button" onclick="confirmAction(3)">Confirm</button>
+              <div class="container2" >
+                <label for="numericInput">Fair value:</label>
+                <input type="number" id="numericInput2" name="numericInput2" min="0" step="1" required>
+                <button onclick="saveNumber2()">Save</button>
+                <p id="displayNumber2"></p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

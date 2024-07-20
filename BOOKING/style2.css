@@ -1,0 +1,339 @@
+.macbook-air {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-air .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.macbook-air .overlap {
+  position: absolute;
+  background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(SEMlogo3.svg);
+  width: 1696px;
+  height: 1136px;
+  top: 0;
+  left: -416px;
+}
+
+.macbook-air .overlap-group {
+  position: absolute;
+  width: 1280px;
+  height: 201px;
+  top: 0;
+  left: 416px;
+  background-color: #000000;
+}
+
+.macbook-air .SEM-logo {
+  position: absolute;
+  width: 314px;
+  height: 181px;
+  top: 10px;
+  left: 0;
+  object-fit: cover;
+}
+
+.macbook-air .home {
+  position: absolute;
+  width: 107px;
+  height: 44px;
+  top: 120px;
+  left: 386px;
+}
+
+.macbook-air .text-wrapper {
+  position: absolute;
+  width: 107px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #fffbfb;
+  font-size: 32px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.macbook-air .about-us {
+  position: absolute;
+  width: 186px;
+  height: 47px;
+  top: 120px;
+  left: 596px;
+}
+
+.macbook-air .about-us-2 {
+  position: absolute;
+  width: 186px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #fffcfc;
+  font-size: 32px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.macbook-air .FAQS {
+  position: absolute;
+  width: 102px;
+  height: 47px;
+  top: 120px;
+  left: 897px;
+}
+
+.macbook-air .text-wrapper-2 {
+  position: absolute;
+  width: 102px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #fffafa;
+  font-size: 32px;
+  letter-spacing: 1.6px;
+  line-height: normal;
+}
+
+.macbook-air .overlap-2 {
+  position: absolute;
+  width: 1483px;
+  height: 1010px;
+  top: 126px;
+  left: 0;
+}
+
+.macbook-air .rectangle {
+  position: absolute;
+  width: 1095px;
+  height: 534px;
+  top: 238px;
+  left: 60px;
+  background-color: #fe6109;
+  border-radius: 83px;
+  transform: rotate(-150deg);
+}
+
+.macbook-air .rectangle-2 {
+  position: absolute;
+  width: 774px;
+  height: 491px;
+  top: 126px;
+  left: 709px;
+  background-color: #ddd9d9;
+  border-radius: 51px;
+}
+
+.macbook-air .rectangle-3 {
+  position: absolute;
+  width: 165px;
+  height: 38px;
+  top: 220px;
+  left: 805px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.macbook-air .rectangle-4 {
+  position: absolute;
+  width: 165px;
+  height: 38px;
+  top: 220px;
+  left: 1166px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.macbook-air .rectangle-5 {
+  position: absolute;
+  width: 165px;
+  height: 38px;
+  top: 330px;
+  left: 805px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.macbook-air .rectangle-6 {
+  position: absolute;
+  width: 154px;
+  height: 46px;
+  top: 505px;
+  left: 990px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.macbook-air .rectangle-7 {
+  position: absolute;
+  width: 165px;
+  height: 38px;
+  top: 330px;
+  left: 1166px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.macbook-air .rectangle-8 {
+  position: absolute;
+  width: 536px;
+  height: 42px;
+  top: 432px;
+  left: 805px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.macbook-air .register {
+  width: 127px;
+  top: 503px;
+  left: 1028px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.macbook-air .span {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.macbook-air .first-name {
+  position: absolute;
+  width: 163px;
+  top: 173px;
+  left: 827px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.macbook-air .text-wrapper-3 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.macbook-air .last-name {
+  position: absolute;
+  width: 161px;
+  top: 173px;
+  left: 1180px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.macbook-air .email {
+  position: absolute;
+  width: 123px;
+  top: 289px;
+  left: 834px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.macbook-air .mobile-no {
+  position: absolute;
+  width: 134px;
+  top: 289px;
+  left: 1179px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.macbook-air .address {
+  position: absolute;
+  width: 142px;
+  top: 392px;
+  left: 815px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.macbook-air .already-have-an {
+  position: absolute;
+  width: 400px;
+  top: 552px;
+  left: 931px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.75px;
+  line-height: normal;
+}
+
+.macbook-air .text-wrapper-4 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.75px;
+}
+
+.macbook-air .text-wrapper-5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.macbook-air .text-wrapper-6 {
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  text-decoration: underline;
+}
+
+.macbook-air .text-wrapper-7 {
+  width: 235px;
+  top: 143px;
+  left: -1100px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 1.6px;
+  position: absolute;
+  color: #ffffff;
+  line-height: normal;
+}

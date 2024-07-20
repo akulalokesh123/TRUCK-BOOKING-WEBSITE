@@ -1,0 +1,181 @@
+.macbook-air {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .macbook-air .div {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+    position: relative;
+  }
+  
+  .macbook-air .overlap {
+    background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(SEMlogo3.svg);
+
+    position: absolute;
+    width: 1280px;
+    height: 204px;
+    top: 0;
+    left: 0;
+    background-color: #010101;
+  }
+  
+  .macbook-air .SEM-logo {
+    position: absolute;
+    width: 313px;
+    height: 177px;
+    top: 13px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .macbook-air .home {
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    top: 145px;
+    left: 357px;
+  }
+  
+  .macbook-air .text-wrapper {
+    position: absolute;
+    width: 120px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #fffbfb;
+    font-size: 32px;
+    letter-spacing: 1.6px;
+    line-height: normal;
+  }
+  
+  .macbook-air .about-us {
+    position: absolute;
+    width: 196px;
+    height: 45px;
+    top: 145px;
+    left: 576px;
+  }
+  
+  .macbook-air .about-us-2 {
+    position: absolute;
+    width: 196px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #fffbfb;
+    font-size: 32px;
+    letter-spacing: 1.6px;
+    line-height: normal;
+  }
+  
+  .macbook-air .FAQS {
+    position: absolute;
+    width: 106px;
+    height: 45px;
+    top: 145px;
+    left: 891px;
+  }
+  
+  .macbook-air .text-wrapper-2 {
+    position: absolute;
+    width: 106px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #fffafa;
+    font-size: 32px;
+    letter-spacing: 1.6px;
+    line-height: normal;
+  }
+  
+  .macbook-air .frame {
+    background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(lorrycoverpage.png);
+    /*background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(lorryc.png);*/
+    
+
+    position: absolute;
+    height: 626px;
+    top: 204px;
+    left: 0;
+    overflow: hidden;
+    width: 1280px;
+    overflow-y: scroll;
+  }
+  
+  .macbook-air .frame-2 {
+    position: relative;
+    height: 1141px;
+    width: 1280px;
+    overflow-y: scroll;
+  }
+  
+  .macbook-air .overlap-group {
+    /*background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(lorrycoverpage.png);*/
+    position: fixed;
+    width: 1280px;
+    height: 626px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    width: 1280px;
+    height: 626px;
+    top: 0;
+    left: 0;
+    background-image: url(lorrycoverpage.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .macbook-air .SAFE-RELIABLE {
+    position: absolute;
+    width: 301px;
+    height: 220px;
+    top: 212px;
+    left: 938px;
+  }
+  
+  .macbook-air .login-wrapper {
+    position: absolute;
+    width: 185px;
+    height: 64px;
+    top: 450px;
+    left: 1000px;
+    background-color: #fe6109;
+  }
+  
+  .macbook-air .login {
+    position: absolute;
+    width: 141px;
+    top: 7px;
+    left: 5px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 42px;
+    letter-spacing: 2.1px;
+    line-height: normal;
+  }
+  
+  .macbook-air .img {
+    position: absolute;
+    background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Rectangle49.jpg);
+    width: 1280px;
+    height: 515px;
+    top: 626px;
+    left: 0;
+    object-fit: cover;
+  }
+  .image {
+    width: 1280px;
+    height: 626px;
+  }
+  
